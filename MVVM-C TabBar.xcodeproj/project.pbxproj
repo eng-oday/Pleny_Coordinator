@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE39CAD42ABA0F7C00E50BCB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CAD32ABA0F7C00E50BCB /* LoginView.swift */; };
+		CE39CAD92ABA103500E50BCB /* LoginCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CAD82ABA103500E50BCB /* LoginCoordinatorView.swift */; };
+		CE39CADB2ABA104500E50BCB /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CADA2ABA104500E50BCB /* LoginCoordinator.swift */; };
+		CE39CADD2ABA107A00E50BCB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CADC2ABA107A00E50BCB /* LoginViewModel.swift */; };
+		CE39CADF2ABA169700E50BCB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CADE2ABA169700E50BCB /* AppCoordinator.swift */; };
 		F8BDEA0B2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA0A2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift */; };
 		F8BDEA0D2AB9B5DC008FD9FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */; };
 		F8BDEA0F2AB9B5DD008FD9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BDEA0E2AB9B5DD008FD9FB /* Assets.xcassets */; };
@@ -25,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE39CAD32ABA0F7C00E50BCB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE39CAD82ABA103500E50BCB /* LoginCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinatorView.swift; sourceTree = "<group>"; };
+		CE39CADA2ABA104500E50BCB /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		CE39CADC2ABA107A00E50BCB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CE39CADE2ABA169700E50BCB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		F8BDEA072AB9B5DC008FD9FB /* MVVM-C TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BDEA0A2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_TabBarApp.swift; sourceTree = "<group>"; };
 		F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +64,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE39CAD22ABA0F6700E50BCB /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				CE39CAD32ABA0F7C00E50BCB /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		CE39CAD52ABA0F8000E50BCB /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE39CADC2ABA107A00E50BCB /* LoginViewModel.swift */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		CE39CAD62ABA0F8D00E50BCB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE39CAD82ABA103500E50BCB /* LoginCoordinatorView.swift */,
+				CE39CADA2ABA104500E50BCB /* LoginCoordinator.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		F8BDE9FE2AB9B5DC008FD9FB = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +112,6 @@
 				F8BDEA182AB9B5E4008FD9FB /* Scene */,
 				F8BDEA192AB9B5E9008FD9FB /* ViewModel */,
 				F8BDEA1C2AB9B5F7008FD9FB /* Coordinators */,
-				F8BDEA1B2AB9B5F3008FD9FB /* Model */,
-				F8BDEA1A2AB9B5EF008FD9FB /* View */,
 				F8BDEA0A2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift */,
 				F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */,
 				F8BDEA0E2AB9B5DD008FD9FB /* Assets.xcassets */,
@@ -98,6 +131,7 @@
 		F8BDEA182AB9B5E4008FD9FB /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				CE39CAD22ABA0F6700E50BCB /* LoginView */,
 				F8BDEA332AB9BCCE008FD9FB /* HomeView */,
 				F8BDEA3A2AB9C372008FD9FB /* ExploreView */,
 			);
@@ -107,32 +141,21 @@
 		F8BDEA192AB9B5E9008FD9FB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CE39CAD52ABA0F8000E50BCB /* LoginViewModel */,
 				F8BDEA342AB9BCD6008FD9FB /* HomeViewModel */,
 				F8BDEA3B2AB9C37D008FD9FB /* ExploreViewModel */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		F8BDEA1A2AB9B5EF008FD9FB /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F8BDEA1B2AB9B5F3008FD9FB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		F8BDEA1C2AB9B5F7008FD9FB /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				CE39CAD62ABA0F8D00E50BCB /* Login */,
 				F8BDEA2C2AB9BB67008FD9FB /* Explore */,
 				F8BDEA292AB9BB50008FD9FB /* Home */,
 				F8BDEA222AB9B742008FD9FB /* Main */,
+				CE39CADE2ABA169700E50BCB /* AppCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -279,13 +302,18 @@
 				F8BDEA0D2AB9B5DC008FD9FB /* ContentView.swift in Sources */,
 				F8BDEA362AB9BD1A008FD9FB /* HomeViewModel.swift in Sources */,
 				F8BDEA392AB9C2A5008FD9FB /* Extension.swift in Sources */,
+				CE39CAD92ABA103500E50BCB /* LoginCoordinatorView.swift in Sources */,
+				CE39CADF2ABA169700E50BCB /* AppCoordinator.swift in Sources */,
 				F8BDEA242AB9B759008FD9FB /* HomeCoordinator.swift in Sources */,
 				F8BDEA2B2AB9BB60008FD9FB /* HomeCoordinatorView.swift in Sources */,
 				F8BDEA1F2AB9B68F008FD9FB /* MainCoordinator.swift in Sources */,
+				CE39CAD42ABA0F7C00E50BCB /* LoginView.swift in Sources */,
+				CE39CADD2ABA107A00E50BCB /* LoginViewModel.swift in Sources */,
 				F8BDEA3F2AB9C3B1008FD9FB /* ExploreViewModel.swift in Sources */,
 				F8BDEA2E2AB9BB76008FD9FB /* ExploreCoordinatorView.swift in Sources */,
 				F8BDEA262AB9B76F008FD9FB /* ExploreCoordinator.swift in Sources */,
 				F8BDEA3D2AB9C390008FD9FB /* ExploreView.swift in Sources */,
+				CE39CADB2ABA104500E50BCB /* LoginCoordinator.swift in Sources */,
 				F8BDEA0B2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
