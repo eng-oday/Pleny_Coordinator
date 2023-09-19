@@ -11,7 +11,7 @@ import SwiftUI
 struct MVVM_C_TabBarApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainCoordinatorView(coordinator: MainCoordinator())
         }
     }
 }

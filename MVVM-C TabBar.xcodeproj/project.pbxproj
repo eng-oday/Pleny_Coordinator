@@ -11,6 +11,17 @@
 		F8BDEA0D2AB9B5DC008FD9FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */; };
 		F8BDEA0F2AB9B5DD008FD9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BDEA0E2AB9B5DD008FD9FB /* Assets.xcassets */; };
 		F8BDEA122AB9B5DD008FD9FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BDEA112AB9B5DD008FD9FB /* Preview Assets.xcassets */; };
+		F8BDEA1F2AB9B68F008FD9FB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA1E2AB9B68F008FD9FB /* MainCoordinator.swift */; };
+		F8BDEA212AB9B6AF008FD9FB /* MainCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA202AB9B6AF008FD9FB /* MainCoordinatorView.swift */; };
+		F8BDEA242AB9B759008FD9FB /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA232AB9B759008FD9FB /* HomeCoordinator.swift */; };
+		F8BDEA262AB9B76F008FD9FB /* ExploreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA252AB9B76F008FD9FB /* ExploreCoordinator.swift */; };
+		F8BDEA2B2AB9BB60008FD9FB /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA2A2AB9BB60008FD9FB /* HomeCoordinatorView.swift */; };
+		F8BDEA2E2AB9BB76008FD9FB /* ExploreCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA2D2AB9BB76008FD9FB /* ExploreCoordinatorView.swift */; };
+		F8BDEA302AB9BCBA008FD9FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA2F2AB9BCBA008FD9FB /* HomeView.swift */; };
+		F8BDEA362AB9BD1A008FD9FB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA352AB9BD1A008FD9FB /* HomeViewModel.swift */; };
+		F8BDEA392AB9C2A5008FD9FB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA382AB9C2A5008FD9FB /* Extension.swift */; };
+		F8BDEA3D2AB9C390008FD9FB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA3C2AB9C390008FD9FB /* ExploreView.swift */; };
+		F8BDEA3F2AB9C3B1008FD9FB /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA3E2AB9C3B1008FD9FB /* ExploreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8BDEA0E2AB9B5DD008FD9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8BDEA112AB9B5DD008FD9FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8BDEA1E2AB9B68F008FD9FB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		F8BDEA202AB9B6AF008FD9FB /* MainCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorView.swift; sourceTree = "<group>"; };
+		F8BDEA232AB9B759008FD9FB /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		F8BDEA252AB9B76F008FD9FB /* ExploreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCoordinator.swift; sourceTree = "<group>"; };
+		F8BDEA2A2AB9BB60008FD9FB /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
+		F8BDEA2D2AB9BB76008FD9FB /* ExploreCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCoordinatorView.swift; sourceTree = "<group>"; };
+		F8BDEA2F2AB9BCBA008FD9FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F8BDEA352AB9BD1A008FD9FB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F8BDEA382AB9C2A5008FD9FB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F8BDEA3C2AB9C390008FD9FB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		F8BDEA3E2AB9C3B1008FD9FB /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,12 @@
 		F8BDEA092AB9B5DC008FD9FB /* MVVM-C TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				F8BDEA372AB9C299008FD9FB /* Extension */,
+				F8BDEA182AB9B5E4008FD9FB /* Scene */,
+				F8BDEA192AB9B5E9008FD9FB /* ViewModel */,
+				F8BDEA1C2AB9B5F7008FD9FB /* Coordinators */,
+				F8BDEA1B2AB9B5F3008FD9FB /* Model */,
+				F8BDEA1A2AB9B5EF008FD9FB /* View */,
 				F8BDEA0A2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift */,
 				F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */,
 				F8BDEA0E2AB9B5DD008FD9FB /* Assets.xcassets */,
@@ -65,6 +93,115 @@
 				F8BDEA112AB9B5DD008FD9FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8BDEA182AB9B5E4008FD9FB /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA332AB9BCCE008FD9FB /* HomeView */,
+				F8BDEA3A2AB9C372008FD9FB /* ExploreView */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		F8BDEA192AB9B5E9008FD9FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA342AB9BCD6008FD9FB /* HomeViewModel */,
+				F8BDEA3B2AB9C37D008FD9FB /* ExploreViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F8BDEA1A2AB9B5EF008FD9FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8BDEA1B2AB9B5F3008FD9FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8BDEA1C2AB9B5F7008FD9FB /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA2C2AB9BB67008FD9FB /* Explore */,
+				F8BDEA292AB9BB50008FD9FB /* Home */,
+				F8BDEA222AB9B742008FD9FB /* Main */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F8BDEA222AB9B742008FD9FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA202AB9B6AF008FD9FB /* MainCoordinatorView.swift */,
+				F8BDEA1E2AB9B68F008FD9FB /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F8BDEA292AB9BB50008FD9FB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA232AB9B759008FD9FB /* HomeCoordinator.swift */,
+				F8BDEA2A2AB9BB60008FD9FB /* HomeCoordinatorView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F8BDEA2C2AB9BB67008FD9FB /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA252AB9B76F008FD9FB /* ExploreCoordinator.swift */,
+				F8BDEA2D2AB9BB76008FD9FB /* ExploreCoordinatorView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		F8BDEA332AB9BCCE008FD9FB /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA2F2AB9BCBA008FD9FB /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		F8BDEA342AB9BCD6008FD9FB /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA352AB9BD1A008FD9FB /* HomeViewModel.swift */,
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		F8BDEA372AB9C299008FD9FB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA382AB9C2A5008FD9FB /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F8BDEA3A2AB9C372008FD9FB /* ExploreView */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA3C2AB9C390008FD9FB /* ExploreView.swift */,
+			);
+			path = ExploreView;
+			sourceTree = "<group>";
+		};
+		F8BDEA3B2AB9C37D008FD9FB /* ExploreViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDEA3E2AB9C3B1008FD9FB /* ExploreViewModel.swift */,
+			);
+			path = ExploreViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +274,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8BDEA302AB9BCBA008FD9FB /* HomeView.swift in Sources */,
+				F8BDEA212AB9B6AF008FD9FB /* MainCoordinatorView.swift in Sources */,
 				F8BDEA0D2AB9B5DC008FD9FB /* ContentView.swift in Sources */,
+				F8BDEA362AB9BD1A008FD9FB /* HomeViewModel.swift in Sources */,
+				F8BDEA392AB9C2A5008FD9FB /* Extension.swift in Sources */,
+				F8BDEA242AB9B759008FD9FB /* HomeCoordinator.swift in Sources */,
+				F8BDEA2B2AB9BB60008FD9FB /* HomeCoordinatorView.swift in Sources */,
+				F8BDEA1F2AB9B68F008FD9FB /* MainCoordinator.swift in Sources */,
+				F8BDEA3F2AB9C3B1008FD9FB /* ExploreViewModel.swift in Sources */,
+				F8BDEA2E2AB9BB76008FD9FB /* ExploreCoordinatorView.swift in Sources */,
+				F8BDEA262AB9B76F008FD9FB /* ExploreCoordinator.swift in Sources */,
+				F8BDEA3D2AB9C390008FD9FB /* ExploreView.swift in Sources */,
 				F8BDEA0B2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +423,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +453,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
