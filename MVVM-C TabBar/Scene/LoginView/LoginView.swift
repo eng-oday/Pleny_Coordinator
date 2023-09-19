@@ -10,25 +10,45 @@ import SwiftUI
 struct LoginView: View {
     @ObservedObject var viewModel:LoginViewModel
     var body: some View {
-        VStack {
-            TextField("Username", text: $viewModel.userName)
-                .padding()
+        VStack (spacing: 24) {
             
-            SecureField("Password", text: $viewModel.password)
-                .padding()
+            VStack(spacing: 24) {
+                Image("LoginBg")
+                    .resizable()
+                    .frame(width: 660 ,height: 440)
+                    .scaledToFit()
+                
+                Text("Welcome")
+                    .font(.title3)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.82))
+                    .multilineTextAlignment(.center)
+            }  // :HEADER
             
-            Button(action: {
+            UserNameField(userName: $viewModel.userName)
+            
+            PasswordField(password: $viewModel.password)
+            
+            Spacer().frame(height: 16)
+            
+            Button {
                 viewModel.login()
-            }) {
-                Text("Login")
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.blue)
-                    .cornerRadius(5)
-            }
+            } label: {
+                ZStack {
+                    Capsule(style: .circular)
+                        .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.82))
+                    Text("Sign In")
+                        .font(.system(size: 17))
+                        .foregroundColor(.white)
+                }
+            } // :LOGIN BUTTON
+            .frame(height: 46)
+            .padding(.horizontal, 16)
             .disabled(!viewModel.loginButtonEnabled)
+            
         }
-        .padding()    }
+        .ignoresSafeArea(.all)
+    }
 }
 
 struct LoginView_Previews: PreviewProvider {

@@ -12,6 +12,8 @@
 		CE39CADB2ABA104500E50BCB /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CADA2ABA104500E50BCB /* LoginCoordinator.swift */; };
 		CE39CADD2ABA107A00E50BCB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CADC2ABA107A00E50BCB /* LoginViewModel.swift */; };
 		CE39CADF2ABA169700E50BCB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CADE2ABA169700E50BCB /* AppCoordinator.swift */; };
+		CE39CAE32ABA21DB00E50BCB /* UserNameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CAE22ABA21DB00E50BCB /* UserNameField.swift */; };
+		CE39CAE52ABA220A00E50BCB /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39CAE42ABA220A00E50BCB /* PasswordField.swift */; };
 		F8BDEA0B2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA0A2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift */; };
 		F8BDEA0D2AB9B5DC008FD9FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */; };
 		F8BDEA0F2AB9B5DD008FD9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BDEA0E2AB9B5DD008FD9FB /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 		CE39CADA2ABA104500E50BCB /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		CE39CADC2ABA107A00E50BCB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		CE39CADE2ABA169700E50BCB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CE39CAE22ABA21DB00E50BCB /* UserNameField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameField.swift; sourceTree = "<group>"; };
+		CE39CAE42ABA220A00E50BCB /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
 		F8BDEA072AB9B5DC008FD9FB /* MVVM-C TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BDEA0A2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_TabBarApp.swift; sourceTree = "<group>"; };
 		F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,23 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		CE39CAE02ABA21C000E50BCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE39CAE12ABA21C500E50BCB /* LoginTextField */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE39CAE12ABA21C500E50BCB /* LoginTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CE39CAE22ABA21DB00E50BCB /* UserNameField.swift */,
+				CE39CAE42ABA220A00E50BCB /* PasswordField.swift */,
+			);
+			path = LoginTextField;
+			sourceTree = "<group>";
+		};
 		F8BDE9FE2AB9B5DC008FD9FB = {
 			isa = PBXGroup;
 			children = (
@@ -108,10 +129,11 @@
 		F8BDEA092AB9B5DC008FD9FB /* MVVM-C TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				CE39CAE02ABA21C000E50BCB /* View */,
 				F8BDEA372AB9C299008FD9FB /* Extension */,
 				F8BDEA182AB9B5E4008FD9FB /* Scene */,
-				F8BDEA192AB9B5E9008FD9FB /* ViewModel */,
 				F8BDEA1C2AB9B5F7008FD9FB /* Coordinators */,
+				F8BDEA192AB9B5E9008FD9FB /* ViewModel */,
 				F8BDEA0A2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift */,
 				F8BDEA0C2AB9B5DC008FD9FB /* ContentView.swift */,
 				F8BDEA0E2AB9B5DD008FD9FB /* Assets.xcassets */,
@@ -310,8 +332,10 @@
 				CE39CAD42ABA0F7C00E50BCB /* LoginView.swift in Sources */,
 				CE39CADD2ABA107A00E50BCB /* LoginViewModel.swift in Sources */,
 				F8BDEA3F2AB9C3B1008FD9FB /* ExploreViewModel.swift in Sources */,
+				CE39CAE52ABA220A00E50BCB /* PasswordField.swift in Sources */,
 				F8BDEA2E2AB9BB76008FD9FB /* ExploreCoordinatorView.swift in Sources */,
 				F8BDEA262AB9B76F008FD9FB /* ExploreCoordinator.swift in Sources */,
+				CE39CAE32ABA21DB00E50BCB /* UserNameField.swift in Sources */,
 				F8BDEA3D2AB9C390008FD9FB /* ExploreView.swift in Sources */,
 				CE39CADB2ABA104500E50BCB /* LoginCoordinator.swift in Sources */,
 				F8BDEA0B2AB9B5DC008FD9FB /* MVVM_C_TabBarApp.swift in Sources */,
