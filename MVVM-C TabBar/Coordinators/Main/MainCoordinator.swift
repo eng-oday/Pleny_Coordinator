@@ -10,14 +10,18 @@ import SwiftUI
 
 @MainActor
 class MainCoordinator:ObservableObject {
+    @AppStorage("isLoggedIn") var isLoggedIn: Bool  = false
     @Published var tab:MainTab = .home
     @Published var homeCoordinator:HomeCoordinator!
     @Published var exploreCoordinator:ExploreCoordinator!
+    @Published var loginCoordinator:LoginCoordinator!
     
     init(){
-        homeCoordinator        = .init(parentCoordinator: self)
-        exploreCoordinator     = .init(parentCoordinator: self, willChangeTabTo: .home)
+        homeCoordinator         = .init(parentCoordinator: self)
+        exploreCoordinator      = .init(parentCoordinator: self, willChangeTabTo: .home)
+        loginCoordinator        = .init(parentCoordinator: self)
     }
+    
 }
 
 

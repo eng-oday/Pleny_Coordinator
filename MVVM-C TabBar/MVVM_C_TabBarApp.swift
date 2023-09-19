@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MVVM_C_TabBarApp: App {
+    @AppStorage("isLoggedIn") var isLoggedIn: Bool = false
+    @StateObject var mainCoordinator = MainCoordinator()
     var body: some Scene {
         WindowGroup {
-            MainCoordinatorView(coordinator: MainCoordinator())
+            AppCoordinator(mainCoordinator: mainCoordinator).start()
         }
     }
 }
